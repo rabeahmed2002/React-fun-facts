@@ -6,7 +6,6 @@ body {
   margin: 0;
   background-color: rgb(46,46,46) ;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  
 }
 
 nav{
@@ -46,7 +45,7 @@ main{
   background-image: url(./images/gray-react-logo.png);
   background-repeat: no-repeat;
   background-position : right 99%;
-  /* background-position-y: 75%; */
+  background-position-y: 15%;
 }
 
 .main-el{
@@ -59,6 +58,7 @@ main{
 .list-el{
   padding: 10px 50px;
   font-size:larger;
+  height: 400px;
 }
 
 .list-el > li {
@@ -70,6 +70,36 @@ main{
   font-size: 1.4rem;
 }
 
-.gray-logo{
-  padding-left: 200px;
+.light{
+  background-color: rgb(255, 255, 255);
+  color: rgb(46, 46, 46);
+}
+
+/* .gray-logo{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-left: 1020px;
+  padding: 1px 10px;
+  width: 300px;
+} */
+
+.dark-mode{
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.toggler-slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
 }
